@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="container flex justify-end mx-auto pt-4 pr-3 items-center">
+    <ul class="md:flex hidden space-x-2 lg:space-x-4 gap-5 lg:gap-12">
+      <li>
+        <a class="text-lg font-semibold" href="/works.html" target="_blank">Works</a>
+      </li>
+      <li>
+        <a class="text-lg font-semibold" href="/blog.html" target="_blank">Blog</a>
+      </li>
+      <li>
+        <a class="text-lg font-semibold" href="#">Contact</a>
+      </li>
+    </ul>
+
+    <div class="block md:hidden text-xl px-5">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+  <section class="container mx-auto">
+    <!-- hero -->
+    <section id="hero"
+      class="hero container flex flex-col-reverse sm:items-start items-center sm:flex-row justify-between mt-12">
+      <div class="sm:max-w-1/2 max-w-[400px] text-center sm:text-left pl-4">
+        <h1 class="text-4xl font-bold text-[#21243D]">Hi, I am John,
+          Creative Technologist</h1>
+        <p class="text-lg mt-4 my-5 text-[16px] text-[#21243D]">Amet minim mollit non deserunt ullamco est sit aliqua
+          dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+          amet.</p>
+        <button class="mt-6 text-[20px] bg-[#FF6464] text-white py-2 px-4 rounded">Download Resume</button>
+      </div>
+      <div>
+        <img class="h-[245px] w-[245px] rounded-full sm:mr-4" src="/images/Ellipse 1.png" alt="">
+      </div>
+    </section>
+
+    <!-- Recent posts -->
+    <section id="posts" class="container mt-12 bg-[#EDF7FA]">
+      <header class="flex justify-between p-5">
+        <div>
+          <h2 class="text-[#21243D] text-2xl">Recent posts</h2>
+        </div>
+        <div>
+          <a class="text-[#00A8CC]" href="#">View all</a>
+        </div>
+      </header>
+      <figure class="flex gap-4 mx-auto pb-5 text-[#21243D] sm:flex-row flex-col items-center ">
+        <div class="card bg-white rounded p-5 sm:max-w-1/2 w-full">
+          <h1 class="text-3xl font-bold">Making a design system from scratch</h1>
+          <p class="py-4">12 Feb 2020 | Design, Pattern</p>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+        <div class="card bg-white rounded p-5 sm:max-w-1/2 w-full">
+          <h1 class="text-3xl font-bold">Creating pixel perfect icons in Figma</h1>
+          <p class="py-4">12 Feb 2020 | Figma, Icon Design</p>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </figure>
+    </section>
+
+    <!-- Featured works -->
+    <section class="container mt-5 text-[#21243D] p-5">
+      <h2 class="text-2xl">Featured works</h2>
+      <figure class="flex gap-3 mt-5 sm:flex-row flex-col">
+        <img src="/images/Rectangle 30.png" alt="">
+        <div>
+          <h1 class="text-3xl font-bold">Designing Dashboards</h1>
+          <div class="flex gap-6 mt-2">
+            <div class="bg-[#21243D] text-white rounded-xl text-center w-12">2020</div>
+            <div>
+              <p class="text-[#8695A4]">Dashboard</p>
+            </div>
+          </div>
+          <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </figure>
+      <hr class="my-5 text-gray-300">
+      <figure class="sm:flex gap-3 mt-5 sm:flex-row flex-col hidden">
+        <img src="/images/Rectangle 32.png" alt="">
+        <div>
+          <h1 class="text-3xl font-bold">Vibrant Portraits of 2020</h1>
+          <div class="flex gap-6 mt-2">
+            <div class="bg-[#21243D] text-white rounded-xl text-center w-12">2018</div>
+            <div>
+              <p class="text-[#8695A4]">Illustration</p>
+            </div>
+          </div>
+          <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </figure>
+      <hr class="my-5 text-gray-300 sm:block hidden">
+      <figure class="sm:flex gap-3 mt-5 sm:flex-row flex-col hidden">
+        <img src="/images/Rectangle 34.png" alt="">
+        <div>
+          <h1 class="text-3xl font-bold">36 Days of Malayalam type</h1>
+          <div class="flex gap-6 mt-2">
+            <div class="bg-[#21243D] text-white rounded-xl text-center w-12">2018</div>
+            <div>
+              <p class="text-[#8695A4]">Typography</p>
+            </div>
+          </div>
+          <p class="mt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </figure>
+      <hr class="my-5 text-gray-300 sm:block hidden">
+    </section>
+  </section>
+
+  <footer class="text-center p-10">
+    <div class="flex gap-8 text-3xl justify-center">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-invision"></i>
+    </div>
+    <p class="text-[#21243D] my-3">Copyright ©2020 All rights reserved </p>
+  </footer>
+</body>
+
+</html>
